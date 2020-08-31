@@ -1,15 +1,31 @@
 import React from 'react'
 
 class Square extends React.Component {
+    constructor(props) {
+        super(props);
+        this.state = {
+          value: '-',
+        };
+      }
+    
+
     render() {
       return (
-        <button className="square">
-          {this.props.value}
+        <button className="square" 
+                onClick={() => this.setState({value:'X'})}>
+          {this.state.value}
         </button>
       );
     }
+
+
+     CliqueBotao() {
+        this.state.value = 'X';
+    }
   }
   
+
+
   class Board extends React.Component {
     renderSquare(i) {
       return <Square />;
