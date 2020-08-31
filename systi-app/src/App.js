@@ -1,10 +1,10 @@
 import React from 'react';
 import './App.css';
-import FormTest from './Tests/FormTest';
+import Square from './Tests/ReactDocs'
 
 function App() {
   return ( <div>
-      <FormTest />
+        
     </div>
   );
 }

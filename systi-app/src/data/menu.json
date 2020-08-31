@@ -1,0 +1,49 @@
+[
+    {
+        "id": "1",
+        "nome":"Menu (Ctrl+M)"
+    },
+    {
+        "id": "2",
+        "nome":"Consulta NFC-e(Ctrl+G)"
+    },
+    {
+        "id": "3",
+        "nome":"Suprimento(Ctrl+T)"
+    },
+    {
+        "id": "4",
+        "nome":"Sangria(Ctrl+S)"
+    },
+    {
+        "id": "5",
+        "nome":"Vendedor(F8)"
+    },
+    {
+        "id": "6",
+        "nome":"Lista(F6)"
+    },
+    {
+        "id": "7",
+        "nome":"Cancelar(F5)"
+    },{
+        "id": "8",
+        "nome":"Recebimento(F2)"
+    },
+    {
+        "id": "9",
+        "nome":"Emitir NFC-e(F3)"
+    },
+    {
+        "id": "10",
+        "nome":"Devolução(F5)"
+    },
+    {
+        "id": "11",
+        "nome":" Sair(ESC)"
+    },
+    {
+        "id": "12",
+        "nome":"Turno(Shift + T)"
+    }
+]

@@ -1,5 +1,6 @@
 
 @import 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css';
+/* @import '../Themes/dark/lineshorizontal4.png'; */
 
 #glocomponente{
     background-color: navy;
@@ -29,24 +30,29 @@ button{
 }
 
 #leftbox { 
+    margin-top: -0.8%;
     float:left;  
     width:30%; 
     height:280px; 
 } 
+
 #middlebox{ 
+    margin-top: 2%;
     float:left;  
 /*background-color: teal;*/
     width:45%; 
-    height:280px; 
+    height: 50rem; 
+    background-image: url("https://www.inovex.de/blog/wp-content/uploads/2022/01/one-year-of-react-native-1200x675.png");
+    background-color: #cccccc; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover;
 } 
+
 #rightbox{ 
     float:right; 
-    
     width:25%; 
     height:280px; 
+    background-color: red;
+    margin-top: 2%;
 } 
-
-body{
-    background-color: white;
-}
-
