@@ -1,15 +1,13 @@
 import React from 'react';
 import './App.css';
-import Square from './Tests/ReactDocs'
+
 
 function App() {
-  return ( <div>
+  return (<div>
         
-    </div>
+        </div>
   );
 }
-
-
 
 // function App() {
 //   return (

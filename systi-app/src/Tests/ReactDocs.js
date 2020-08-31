@@ -8,7 +8,6 @@ class Square extends React.Component {
         };
       }
     
-
     render() {
       return (
         <button className="square" 
@@ -17,15 +16,8 @@ class Square extends React.Component {
         </button>
       );
     }
-
-
-     CliqueBotao() {
-        this.state.value = 'X';
-    }
   }
   
-
-
   class Board extends React.Component {
     renderSquare(i) {
       return <Square />;
