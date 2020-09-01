@@ -1,13 +1,16 @@
 import React from 'react';
 import './App.css';
-
+import MyComponent from './Tests/ApiTest'
 
 function App() {
   return (<div>
-        
+          <MyComponent />
         </div>
   );
 }
+
+
+
 
 // function App() {
 //   return (
