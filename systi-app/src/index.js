@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import * as serviceWorker from './serviceWorker';
-import CompTest from './Tests/CompTest'
+import CompTest from './Tests/'
 
 ReactDOM.render(
   <CompTest />,

@@ -13,7 +13,7 @@ class MyComponent extends React.Component {
   }
 
   componentDidMount() {
-    fetch("http://localhost:3000/posts/")
+    fetch("http://localhost:3000/menu")
       .then(res => res.json())
       .then(
         (result) => {
