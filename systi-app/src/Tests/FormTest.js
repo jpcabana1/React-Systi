@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import '../Tests/FormTest.css'
-import Pdata from '../data/data.json'
+//import Pdata from '../data/data.json'
 import Menu from '../data/menu.json'
 
 
@@ -8,8 +8,6 @@ import Menu from '../data/menu.json'
 
 class FormTest extends Component{
    
-   
-
     render() {
         // for(i = 0; i<5;i++){
             

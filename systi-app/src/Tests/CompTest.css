@@ -1,0 +1,35 @@
+#Fundo{ 
+    background-color: navy;   
+    border-style: double;
+    height: 100px;
+    color: white;
+}
+
+#imagemTitle{   
+    width: 10%;
+    height:200px;
+    float: left;
+}
+
+#textoTitle{
+    width: 40%;
+    height:200px;
+    text-align: left;
+    float: left;
+}
+
+#fimTitle{
+    width: 40%;
+    height:200px;
+    float: left;
+    text-align: right;
+    
+}
+
+#menuEsquerdo{
+    margin-top: -100px;
+    width: 300px;
+    height: 500px;
+    background-color: rgb(0, 162, 255);
+    float: left;
+}
