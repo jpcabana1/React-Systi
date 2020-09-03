@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import * as serviceWorker from './serviceWorker';
 // import App from './App'
-import NewComp from './Tests/NewComp'
+import NewComp from './Components/NewComp'
 
 // ReactDOM.render(
 //   <Game />,

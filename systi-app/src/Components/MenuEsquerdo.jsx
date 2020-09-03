@@ -3,13 +3,13 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Button from 'react-bootstrap/Button';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBars } from '@fortawesome/free-solid-svg-icons'
-import './CompTest.css';
+import './CSS/NewComp.css';
 
 class MenuEsquerdo extends Component{ 
     constructor(props){
         super(props);
         this.state = {
-            url: "http://localhost:3000/menu", 
+            url: "http://localhost:3001/menu", 
             isLoaded: true, 
             items: []
         };      

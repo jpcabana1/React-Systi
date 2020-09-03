@@ -1,24 +1,24 @@
 import React from 'react';
-import './CompTest.css';
+import './CSS/NewComp.css'
 import logo from '../logo.svg';
 import '../App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Button from 'react-bootstrap/Button';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faBars } from '@fortawesome/free-solid-svg-icons'
+// import Button from 'react-bootstrap/Button';
+// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+// import { faBars } from '@fortawesome/free-solid-svg-icons'
 import MenuEsquerdo from './MenuEsquerdo'
-
+import Painel from './PainelPrincipal/Painel'
 
 function NewComp(){
     return(
         <div>
             <Title />  
-            <MenuEsquerdo />            
+            <MenuEsquerdo />  
+            <Painel name=""/>          
             <Rodape />
         </div>  
     );
 }
-
 
 function Title(){
     return(
