@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import '../Tests/FormTest.css'
-//import Pdata from '../data/data.json'
+import Pdata from '../data/data.json'
 import Menu from '../data/menu.json'
 
 
@@ -8,6 +8,8 @@ import Menu from '../data/menu.json'
 
 class FormTest extends Component{
    
+   
+
     render() {
         // for(i = 0; i<5;i++){
             
@@ -29,12 +31,12 @@ class FormTest extends Component{
                 </div>
                 <pre id="glocomponente2">DataHora: 09/06/2020 10:46:04|Versão: 1.45.0.191|Turno: 1 -ABERTO| Operador: ED| PDV: 1|</pre>
                 {/* <h1>Test json</h1> */}
-                            {/* {Pdata.db.map((postDetail, index) => {
+                            {Pdata.db.map((postDetail, index) => {
                                 return <div>
                                     <h1>{postDetail.first_name}</h1>
                                     <p>{postDetail.last_name}</p>
                                 </div>
-                            })} */}
+                            })}
           </div>  
         );
       }

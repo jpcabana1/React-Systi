@@ -1,4 +1,27 @@
- {"db":[
+ {
+   "mat":[
+      {
+          "codmat": "000000001",
+          "qtdmat": "12",
+          "dscmat": "BORRA"
+      },
+      {
+          "codmat": "000000002",
+          "qtdmat": "2",
+          "dscmat": "Colchão"
+      },
+      {
+          "codmat": "000000001",
+          "qtdmat": "2000",
+          "dscmat": "Coca-Cola"
+      },
+      {
+          "codmat": "000000001",
+          "qtdmat": "",
+          "dscmat": "Teclado"
+      }
+   ],
+   "db":[
     {
        "id":1,
        "first_name":"Kip",

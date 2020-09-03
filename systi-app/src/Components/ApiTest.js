@@ -1,9 +1,7 @@
 import React from'react'
 
-
 class MyComponent extends React.Component {
   constructor(props) {
-    
     super(props);
     this.state = {
       error: null,
@@ -13,7 +11,7 @@ class MyComponent extends React.Component {
   }
 
   componentDidMount() {
-    fetch("http://localhost:3000/menu")
+    fetch("http://localhost:3000/posts")
       .then(res => res.json())
       .then(
         (result) => {

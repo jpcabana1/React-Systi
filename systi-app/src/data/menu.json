@@ -1,5 +1,5 @@
 {
-"menu":[
+    "menu":[
         {
             "id": "1",
             "nome":"Menu (Ctrl+M)"
@@ -22,7 +22,7 @@
         },
         {
             "id": "6",
-            "nome":"Lista(F6)"
+            "nome":"           Lista(F6)"
         },
         {
             "id": "7",
