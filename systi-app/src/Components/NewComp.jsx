@@ -14,12 +14,11 @@ function NewComp(){
         <div>
             <Title />  
             <MenuEsquerdo />  
-            <Painel name=""/>          
+            <Painel name=""/>
             <Rodape />
         </div>  
     );
 }
-
 function Title(){
     return(
         <div id="Fundo">
@@ -35,7 +34,6 @@ function Title(){
         </div>     
     );
 }
-
 function ImagemLogo(){
     return(
         <div>
@@ -43,7 +41,6 @@ function ImagemLogo(){
         </div>           
     );
 }
-
 function Rodape(){
     return(
         <div id="rodape">
@@ -51,6 +48,5 @@ function Rodape(){
         </div>
     );
 }
-
 
 export default NewComp;

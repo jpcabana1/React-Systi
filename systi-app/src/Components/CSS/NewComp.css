@@ -1,39 +1,38 @@
 #Fundo{ 
     background-color: navy;   
     border-style: double;
-    height: 100px;
+    height: 5rem;
     color: white;
 }
 
 #imagemTitle{   
-    width: 10%;
-    height:200px;
+    width: 7rem;
+    height:5rem;
     float: left;
 }
 
 #textoTitle{
-    padding-top: 20px;
-    width: 40%;
+    padding-top: 0.5rem;
+    width: 50rem;
     height:200px;
     text-align: left;
     float: left;
 }
 
 #fimTitle{
-    padding-top: 20px;
-    width: 50%;
+    padding-top: 0.5rem;
+    width: 35rem;
     height:200px;
     float: left;
     text-align: right;
-    font-size: 20px;
+    font-size: 10px;
 }
 
-#menuEsquerdo{
+#menuEsquerdo, .btnTeste{
     margin-top: -4%;
-    width: 300px;
-    height: 500px;
+    width: 20rem;
+    height: 50rem;
     padding-left: 10px;
-    
     /* background-color: rgb(0, 162, 255); */
     float: left;
 }
@@ -52,8 +51,13 @@
     font-size: 2rem;
     width: 8rem;
     margin: 5px;
+    block-size: 7rem;
 }
 
+
+.btntbtn :hover{
+    background-color: rgb(0, 217, 255) !important;
+}
 /* button{
     width: 150px;
     height: 150px;

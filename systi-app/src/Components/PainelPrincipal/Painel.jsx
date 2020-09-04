@@ -1,6 +1,8 @@
 import React from 'react'
 import '../CSS/Painel.css'
 import GridConsulta from './GridConsulta'
+
+
 function Painel(props){
     return(
         <div className="Fundo">

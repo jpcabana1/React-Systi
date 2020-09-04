@@ -11,13 +11,13 @@
           "dscmat": "Colchão"
       },
       {
-          "codmat": "000000001",
+          "codmat": "000000003",
           "qtdmat": "2000",
           "dscmat": "Coca-Cola"
       },
       {
-          "codmat": "000000001",
-          "qtdmat": "",
+          "codmat": "000000004",
+          "qtdmat": "30",
           "dscmat": "Teclado"
       }
    ],

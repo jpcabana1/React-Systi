@@ -36,13 +36,17 @@ class MenuEsquerdo extends Component{
             return(
                 <div id="menuEsquerdo">
                             {items.map((item, index) => (
-                                <Button variant="primary" 
-                                className="NFEbutton" >
-                                        <FontAwesomeIcon 
-                                            className="NFEbutton" 
-                                            icon={faBars}/>
-                                            {item.nome}
-                                </Button>                            
+                                <span className="btntbtn">
+                                    <Button variant="primary" 
+                                    className="NFEbutton" >
+                                            <FontAwesomeIcon 
+                                                className="" 
+                                                size="3x"
+                                                icon={faBars}/>
+                                                {item.nome}
+                                    </Button>    
+                                </span>
+                                                       
                             )
                         )
                     }            
